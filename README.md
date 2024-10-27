@@ -1,3 +1,24 @@
+# Technical information
+
+When creating the zip file, I excluded the node_modules folder. Please note that I used Yarn for managing my dependencies.
+
+It took me just over three hours to complete this project, mainly due to issues with configuring Jest. However, I did manage to add one or two tests to meet the requirement. The implementation time does not include the planning I did beforehand, which involved jotting down some wireframes and reading up on SWR, which I used for caching.
+
+I started by creating a folder structure that I prefer, keeping in mind not to overcomplicate things since this is a mini-project. Then, I created all the relevant files I knew I would need from the beginning.
+
+I built the components: AnimalCard and Button, and created the page necessary to display everything.
+
+After that, I developed a mini site with mock data and worked on the UI before implementing the hook to fetch data from API Ninjas.
+
+Once I sorted out the UI, I implemented the hook and linked everything up. Local storage was the last feature I added to store data, followed by some tests.
+
+I wanted to include a modal to display all the attributes, but I ran out of time, so I only displayed the top ten, as the list was quite long.
+
+I had planned to implement more tests, but I didn't have enough time.
+
+The images folder has some example of the solution running
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
